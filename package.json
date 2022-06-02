@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@vueuse/core": "^8.5.0",
+    "@vueuse/shared": "^8.6.0",
+    "dayjs": "^1.11.2",
     "vue": "^3.2.36",
     "vue-router": "^4.0.15"
   },

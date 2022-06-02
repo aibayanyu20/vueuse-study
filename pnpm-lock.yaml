@@ -8,6 +8,8 @@ specifiers:
   '@vitejs/plugin-vue': ^2.3.3
   '@vue/test-utils': ^2.0.0
   '@vueuse/core': ^8.5.0
+  '@vueuse/shared': ^8.6.0
+  dayjs: ^1.11.2
   eslint: ^8.16.0
   jsdom: ^19.0.0
   pnpm: ^7.1.5
@@ -24,6 +26,8 @@ specifiers:
 
 dependencies:
   '@vueuse/core': 8.5.0_vue@3.2.36
+  '@vueuse/shared': 8.6.0_vue@3.2.36
+  dayjs: 1.11.2
   vue: 3.2.36
   vue-router: 4.0.15_vue@3.2.36
 
@@ -760,6 +764,21 @@ packages:
       vue: 3.2.36
       vue-demi: 0.12.1_vue@3.2.36
 
+  /@vueuse/shared/8.6.0_vue@3.2.36:
+    resolution: {integrity: sha512-Y/IVywZo7IfEoSSEtCYpkVEmPV7pU35mEIxV7PbD/D3ly18B3mEsBaPbtDkNM/QP3zAZ5mn4nEkOfddX4uwuIA==}
+    peerDependencies:
+      '@vue/composition-api': ^1.1.0
+      vue: ^2.6.0 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      vue:
+        optional: true
+    dependencies:
+      vue: 3.2.36
+      vue-demi: 0.12.1_vue@3.2.36
+    dev: false
+
   /abab/2.0.5:
     resolution: {integrity: sha512-9IK9EadsbHo6jLWIpxpR6pL0sazTXV6+SQv25ZB+F7Bj9mJNaOc4nCRabwd5M/JwmUa8idz6Eci6eKfJryPs6Q==}
     dev: true
@@ -1136,6 +1155,10 @@ packages:
       whatwg-mimetype: 3.0.0
       whatwg-url: 10.0.0
     dev: true
+
+  /dayjs/1.11.2:
+    resolution: {integrity: sha512-F4LXf1OeU9hrSYRPTTj/6FbO4HTjPKXvEIC1P2kcnFurViINCVk3ZV0xAS3XVx9MkMsXbbqlK6hjseaYbgKEHw==}
+    dev: false
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
