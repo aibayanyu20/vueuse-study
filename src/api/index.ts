@@ -4,11 +4,11 @@ const API_WHITE_LIST = [
   '/login',
 ]
 
-const ERROR_CODE = {
-  403: '没有权限',
-  404: '没有找到',
-  500: '服务器错误',
-}
+// const ERROR_CODE = {
+//   403: '没有权限',
+//   404: '没有找到',
+//   500: '服务器错误',
+// }
 
 const useFetchData = createFetch({
   baseUrl: '/',
